@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,27 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface FTFoldComponent : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
+
+/* ::: FTFoldComponent represents two folds coupled together  */
+
+-(instancetype) initWithSuperView: (UIView *) superview
+                   topViewNibName: (NSString*) topViewNibName
+                bottomViewNibName: (NSString*) bottomViewNibName;
+
+
+@property (nonatomic) UIView *topView;
+@property (nonatomic) UIView *bottomView;
+
+@property (nonatomic) CALayer *topLayer;
+@property (nonatomic) CALayer *bottomLayer;
+
+@property (nonatomic) CAGradientLayer *topGradientLayer;
+@property (nonatomic) CAGradientLayer *bottomGradientLayer;
+
 
 @end

@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,12 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "FTViewController.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface FTViewController (CellsConfiguration)
 
-@property (strong, nonatomic) UIWindow *window;
+-(void) setCellHeightMetadata: (FTTableCellMetadata*) cellMetadata withCell: (UITableViewCell*) cell  tableModel: (FTTableModel*) tableModel;
+-(void) setAnimationViewConfigurationIfNeededWithCellMetadata: (FTTableCellMetadata*) cellMetadata withCell: (FTTableCell*) expandableCell;
+
 
 @end

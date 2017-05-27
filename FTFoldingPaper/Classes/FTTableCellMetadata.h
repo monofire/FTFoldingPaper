@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,20 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface FTTableCellMetadata : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
+
+-(instancetype) initWithReuseID: (NSString *) reuseID
+                   isExpandable: (BOOL) isExpandable
+                      isExpanded: (BOOL) isExpanded;
+
+@property (nonatomic) NSString *cellReuseID;
+@property (nonatomic) CGFloat  cellCollapsedHeight;
+@property (nonatomic) CGFloat  cellCurrentHeight;
+@property (nonatomic) BOOL isExpanded;
+@property (nonatomic) BOOL isExpandable;
 
 @end

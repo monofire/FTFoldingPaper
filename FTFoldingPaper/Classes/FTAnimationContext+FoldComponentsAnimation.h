@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,13 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "FTAnimationContext.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface FTAnimationContext (FoldComponentsAnimation)
 
-@property (strong, nonatomic) UIWindow *window;
 
+/* ::: Helper - cooks y-translation and rotation animations for fold components */
+-(NSArray *) foldAnimationsForFoldComponents: (NSArray *) foldComponents
+                             parentLayerAnimations: (FTParentLayerAnimations *) parentLayerAnimations;
+    
 @end

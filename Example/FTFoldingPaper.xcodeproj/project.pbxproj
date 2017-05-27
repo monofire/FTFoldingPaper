@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* FTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* FTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* FTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,21 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AB2C4B2DCB8595DD53A7C07C /* Pods_FTFoldingPaper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00452DAC49D966D2072406A /* Pods_FTFoldingPaper_Tests.framework */; };
+		E29DCF4D1ED9B6D300A5FA23 /* ExampleTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF441ED9B6D300A5FA23 /* ExampleTableModel.m */; };
+		E29DCF4E1ED9B6D300A5FA23 /* ExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF461ED9B6D300A5FA23 /* ExampleViewController.m */; };
+		E29DCF4F1ED9B6D300A5FA23 /* ExampleViewController+CellDisplayedData.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF481ED9B6D300A5FA23 /* ExampleViewController+CellDisplayedData.m */; };
+		E29DCF501ED9B6D300A5FA23 /* ExpandingCellAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF4A1ED9B6D300A5FA23 /* ExpandingCellAnimationView.m */; };
+		E29DCF511ED9B6D300A5FA23 /* ExpandingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF4C1ED9B6D300A5FA23 /* ExpandingTableViewCell.m */; };
+		E29DCF5C1ED9B78600A5FA23 /* ExcerciseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF571ED9B78600A5FA23 /* ExcerciseDataModel.m */; };
+		E29DCF5D1ED9B78600A5FA23 /* ExerciseFoldComponentData.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF591ED9B78600A5FA23 /* ExerciseFoldComponentData.m */; };
+		E29DCF5E1ED9B78600A5FA23 /* WeekdayCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF5B1ED9B78600A5FA23 /* WeekdayCellData.m */; };
+		E29DCF671ED9B7D500A5FA23 /* ExpandingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29DCF601ED9B7D500A5FA23 /* ExpandingTableViewCell.xib */; };
+		E29DCF681ED9B7D500A5FA23 /* FoldComponentBottomLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29DCF611ED9B7D500A5FA23 /* FoldComponentBottomLayer.xib */; };
+		E29DCF691ED9B7D500A5FA23 /* FoldComponentTopLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29DCF621ED9B7D500A5FA23 /* FoldComponentTopLayer.xib */; };
+		E29DCF6A1ED9B7D500A5FA23 /* NonExpandingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29DCF631ED9B7D500A5FA23 /* NonExpandingTableViewCell.xib */; };
+		E29DCF6B1ED9B7D500A5FA23 /* StandardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF651ED9B7D500A5FA23 /* StandardTableViewCell.m */; };
+		E29DCF6C1ED9B7D500A5FA23 /* StandardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E29DCF661ED9B7D500A5FA23 /* StandardTableViewCell.xib */; };
+		E29DCF701ED9BBA800A5FA23 /* ExerciseFoldComponentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCF6F1ED9BBA800A5FA23 /* ExerciseFoldComponentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +63,6 @@
 		6003F59B195388D20070C39A /* FTFoldingPaper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTFoldingPaper-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* FTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* FTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* FTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* FTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* FTFoldingPaper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTFoldingPaper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -67,6 +79,31 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B00452DAC49D966D2072406A /* Pods_FTFoldingPaper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTFoldingPaper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B512F13BDAAF38E4BF2F01D3 /* Pods-FTFoldingPaper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTFoldingPaper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FTFoldingPaper_Example/Pods-FTFoldingPaper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E29DCF431ED9B6D300A5FA23 /* ExampleTableModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleTableModel.h; sourceTree = "<group>"; };
+		E29DCF441ED9B6D300A5FA23 /* ExampleTableModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTableModel.m; sourceTree = "<group>"; };
+		E29DCF451ED9B6D300A5FA23 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
+		E29DCF461ED9B6D300A5FA23 /* ExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleViewController.m; sourceTree = "<group>"; };
+		E29DCF471ED9B6D300A5FA23 /* ExampleViewController+CellDisplayedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExampleViewController+CellDisplayedData.h"; sourceTree = "<group>"; };
+		E29DCF481ED9B6D300A5FA23 /* ExampleViewController+CellDisplayedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ExampleViewController+CellDisplayedData.m"; sourceTree = "<group>"; };
+		E29DCF491ED9B6D300A5FA23 /* ExpandingCellAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandingCellAnimationView.h; sourceTree = "<group>"; };
+		E29DCF4A1ED9B6D300A5FA23 /* ExpandingCellAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandingCellAnimationView.m; sourceTree = "<group>"; };
+		E29DCF4B1ED9B6D300A5FA23 /* ExpandingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandingTableViewCell.h; sourceTree = "<group>"; };
+		E29DCF4C1ED9B6D300A5FA23 /* ExpandingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandingTableViewCell.m; sourceTree = "<group>"; };
+		E29DCF561ED9B78600A5FA23 /* ExcerciseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerciseDataModel.h; sourceTree = "<group>"; };
+		E29DCF571ED9B78600A5FA23 /* ExcerciseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerciseDataModel.m; sourceTree = "<group>"; };
+		E29DCF581ED9B78600A5FA23 /* ExerciseFoldComponentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseFoldComponentData.h; sourceTree = "<group>"; };
+		E29DCF591ED9B78600A5FA23 /* ExerciseFoldComponentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseFoldComponentData.m; sourceTree = "<group>"; };
+		E29DCF5A1ED9B78600A5FA23 /* WeekdayCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekdayCellData.h; sourceTree = "<group>"; };
+		E29DCF5B1ED9B78600A5FA23 /* WeekdayCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekdayCellData.m; sourceTree = "<group>"; };
+		E29DCF601ED9B7D500A5FA23 /* ExpandingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandingTableViewCell.xib; sourceTree = "<group>"; };
+		E29DCF611ED9B7D500A5FA23 /* FoldComponentBottomLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoldComponentBottomLayer.xib; sourceTree = "<group>"; };
+		E29DCF621ED9B7D500A5FA23 /* FoldComponentTopLayer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoldComponentTopLayer.xib; sourceTree = "<group>"; };
+		E29DCF631ED9B7D500A5FA23 /* NonExpandingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NonExpandingTableViewCell.xib; sourceTree = "<group>"; };
+		E29DCF641ED9B7D500A5FA23 /* StandardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardTableViewCell.h; sourceTree = "<group>"; };
+		E29DCF651ED9B7D500A5FA23 /* StandardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardTableViewCell.m; sourceTree = "<group>"; };
+		E29DCF661ED9B7D500A5FA23 /* StandardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StandardTableViewCell.xib; sourceTree = "<group>"; };
+		E29DCF6E1ED9BBA800A5FA23 /* ExerciseFoldComponentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseFoldComponentView.h; sourceTree = "<group>"; };
+		E29DCF6F1ED9BBA800A5FA23 /* ExerciseFoldComponentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseFoldComponentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,11 +180,15 @@
 		6003F593195388D20070C39A /* Example for FTFoldingPaper */ = {
 			isa = PBXGroup;
 			children = (
+				E29DCF6D1ED9B7DD00A5FA23 /* ExampleCellPrototypes */,
+				E29DCF5F1ED9B79500A5FA23 /* ExampleTableData */,
+				E29DCF551ED9B73E00A5FA23 /* TableModel */,
+				E29DCF521ED9B70500A5FA23 /* ViewController */,
+				E29DCF531ED9B72200A5FA23 /* AnimationView */,
+				E29DCF541ED9B73100A5FA23 /* TableCell */,
 				6003F59C195388D20070C39A /* FTAppDelegate.h */,
 				6003F59D195388D20070C39A /* FTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* FTViewController.h */,
-				6003F5A6195388D20070C39A /* FTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +235,73 @@
 				796878D0EB0467B7D9A5E16E /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		E29DCF521ED9B70500A5FA23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E29DCF451ED9B6D300A5FA23 /* ExampleViewController.h */,
+				E29DCF461ED9B6D300A5FA23 /* ExampleViewController.m */,
+				E29DCF471ED9B6D300A5FA23 /* ExampleViewController+CellDisplayedData.h */,
+				E29DCF481ED9B6D300A5FA23 /* ExampleViewController+CellDisplayedData.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E29DCF531ED9B72200A5FA23 /* AnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				E29DCF491ED9B6D300A5FA23 /* ExpandingCellAnimationView.h */,
+				E29DCF4A1ED9B6D300A5FA23 /* ExpandingCellAnimationView.m */,
+			);
+			name = AnimationView;
+			sourceTree = "<group>";
+		};
+		E29DCF541ED9B73100A5FA23 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				E29DCF4B1ED9B6D300A5FA23 /* ExpandingTableViewCell.h */,
+				E29DCF4C1ED9B6D300A5FA23 /* ExpandingTableViewCell.m */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		E29DCF551ED9B73E00A5FA23 /* TableModel */ = {
+			isa = PBXGroup;
+			children = (
+				E29DCF431ED9B6D300A5FA23 /* ExampleTableModel.h */,
+				E29DCF441ED9B6D300A5FA23 /* ExampleTableModel.m */,
+			);
+			name = TableModel;
+			sourceTree = "<group>";
+		};
+		E29DCF5F1ED9B79500A5FA23 /* ExampleTableData */ = {
+			isa = PBXGroup;
+			children = (
+				E29DCF561ED9B78600A5FA23 /* ExcerciseDataModel.h */,
+				E29DCF571ED9B78600A5FA23 /* ExcerciseDataModel.m */,
+				E29DCF581ED9B78600A5FA23 /* ExerciseFoldComponentData.h */,
+				E29DCF591ED9B78600A5FA23 /* ExerciseFoldComponentData.m */,
+				E29DCF5A1ED9B78600A5FA23 /* WeekdayCellData.h */,
+				E29DCF5B1ED9B78600A5FA23 /* WeekdayCellData.m */,
+			);
+			name = ExampleTableData;
+			sourceTree = "<group>";
+		};
+		E29DCF6D1ED9B7DD00A5FA23 /* ExampleCellPrototypes */ = {
+			isa = PBXGroup;
+			children = (
+				E29DCF601ED9B7D500A5FA23 /* ExpandingTableViewCell.xib */,
+				E29DCF611ED9B7D500A5FA23 /* FoldComponentBottomLayer.xib */,
+				E29DCF621ED9B7D500A5FA23 /* FoldComponentTopLayer.xib */,
+				E29DCF631ED9B7D500A5FA23 /* NonExpandingTableViewCell.xib */,
+				E29DCF6E1ED9BBA800A5FA23 /* ExerciseFoldComponentView.h */,
+				E29DCF6F1ED9BBA800A5FA23 /* ExerciseFoldComponentView.m */,
+				E29DCF641ED9B7D500A5FA23 /* StandardTableViewCell.h */,
+				E29DCF651ED9B7D500A5FA23 /* StandardTableViewCell.m */,
+				E29DCF661ED9B7D500A5FA23 /* StandardTableViewCell.xib */,
+			);
+			name = ExampleCellPrototypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +387,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29DCF691ED9B7D500A5FA23 /* FoldComponentTopLayer.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				E29DCF6A1ED9B7D500A5FA23 /* NonExpandingTableViewCell.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				E29DCF6C1ED9B7D500A5FA23 /* StandardTableViewCell.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				E29DCF671ED9B7D500A5FA23 /* ExpandingTableViewCell.xib in Resources */,
+				E29DCF681ED9B7D500A5FA23 /* FoldComponentBottomLayer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +508,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* FTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* FTViewController.m in Sources */,
+				E29DCF4E1ED9B6D300A5FA23 /* ExampleViewController.m in Sources */,
+				E29DCF501ED9B6D300A5FA23 /* ExpandingCellAnimationView.m in Sources */,
+				E29DCF511ED9B6D300A5FA23 /* ExpandingTableViewCell.m in Sources */,
+				E29DCF4F1ED9B6D300A5FA23 /* ExampleViewController+CellDisplayedData.m in Sources */,
+				E29DCF701ED9BBA800A5FA23 /* ExerciseFoldComponentView.m in Sources */,
+				E29DCF5D1ED9B78600A5FA23 /* ExerciseFoldComponentData.m in Sources */,
+				E29DCF5C1ED9B78600A5FA23 /* ExcerciseDataModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E29DCF5E1ED9B78600A5FA23 /* WeekdayCellData.m in Sources */,
+				E29DCF4D1ED9B6D300A5FA23 /* ExampleTableModel.m in Sources */,
+				E29DCF6B1ED9B7D500A5FA23 /* StandardTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

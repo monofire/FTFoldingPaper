@@ -19,10 +19,9 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "FTViewController.h"
+#import "ExcerciseDataModel.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ExampleViewController : FTViewController
 
 @end

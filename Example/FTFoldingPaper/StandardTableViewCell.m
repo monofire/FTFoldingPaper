@@ -19,10 +19,15 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "StandardTableViewCell.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@implementation StandardTableViewCell
 
-@property (strong, nonatomic) UIWindow *window;
+- (void)awakeFromNib {
+    [super awakeFromNib];
+  
+}
+
+
 
 @end

@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,20 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "FTFoldComponentGradientAnimations.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@implementation FTFoldComponentGradientAnimations
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+        self.topLayerGradientColorAnimation = [CAKeyframeAnimation animationWithKeyPath:@"colors"];
+        self.bottomLayerGradientColorAnimation = [CAKeyframeAnimation animationWithKeyPath:@"colors"];
+ 
+        self.topLayerGradientColorAnimationInverted = [CAKeyframeAnimation animationWithKeyPath:@"colors"];
+        self.bottomLayerGradientColorAnimationInverted = [CAKeyframeAnimation animationWithKeyPath:@"colors"];
+    }
+    return self;
+}
 @end

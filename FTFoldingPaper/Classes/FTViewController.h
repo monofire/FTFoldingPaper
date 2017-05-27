@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,28 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "FTTableModel.h"
+#import "FTTableView.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+/* ::: FTViewController bridges FTTableView with FTTableModel and extends UITableViewDelegate,
+ UITableViewDataSource functionality in order to support expand/collapse animations of FTTableCell */
+
+
+@interface FTViewController : UIViewController
+
+/* to be overrriden in subclass. Do not call directly */
+-(FTTableModel*) submitTableModel;
+-(FTTableView*) submitTableView;
+
+
+/* to called in subclass. Do not override */
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
+
+
+-(FTTableCellMetadata *) tableCellMetadataForRowAtIndex:(NSIndexPath*) indexPath;
 
 @end

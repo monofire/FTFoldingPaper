@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,24 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+/* ::: Value object */
 
-@property (strong, nonatomic) UIWindow *window;
+@interface FTFoldComponentAnimations : NSObject
+
+@property (nonatomic) CAKeyframeAnimation *topLayerRotationAnimation;
+@property (nonatomic) CAKeyframeAnimation *bottomLayerRotationAnimation;
+@property (nonatomic) CAKeyframeAnimation *topLayerYTranslationAnimation;
+@property (nonatomic) CAKeyframeAnimation *bottomLayerYTranslationAnimation;
+
+
+@property (nonatomic) CAKeyframeAnimation *topLayerRotationAnimationInverted;
+@property (nonatomic) CAKeyframeAnimation *bottomLayerRotationAnimationInverted;
+@property (nonatomic) CAKeyframeAnimation *topLayerYTranslationAnimationInverted;
+@property (nonatomic) CAKeyframeAnimation *bottomLayerYTranslationAnimationInverted;
+
+
 
 @end

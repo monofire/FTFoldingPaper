@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,22 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "FTParentLayerAnimations.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@implementation FTParentLayerAnimations
 
-@property (strong, nonatomic) UIWindow *window;
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+
+        self.parentLayerHeightAnimation = [CAKeyframeAnimation animationWithKeyPath:@"bounds.size.height"];
+        self.parentLayerHeightAnimationInverted = [CAKeyframeAnimation animationWithKeyPath:@"bounds.size.height"];
+    
+    }
+    return self;
+}
+
 
 @end

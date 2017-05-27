@@ -19,10 +19,22 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "ExerciseFoldComponentView.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@implementation ExerciseFoldComponentView
+
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+        self.exerciseLoadColor.layer.allowsEdgeAntialiasing = YES;
+        
+    }
+    return self;
+}
+
 
 @end

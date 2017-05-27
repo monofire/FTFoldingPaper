@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,28 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+#import "FTTableCell.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+/*::: FTTableView expands UITableView to operate with FTTableCell and animations */
 
-@property (strong, nonatomic) UIWindow *window;
+@protocol FTTableViewAnimationProtocol <NSObject>
+
+-(void) onSelectedCellExpanded: (FTTableCell *) selectedCell atIndexPath:(NSIndexPath*) indexPath;
+-(void) onSelectedCellCollapsed: (FTTableCell *) selectedCell atIndexPath:(NSIndexPath*) indexPath;
+-(void) onSelectedCell: (FTTableCell*) selectedCell heightUpdate: (CGFloat) newCellHeight atIndexPath:(NSIndexPath*) indexPath;
+
+@end
+
+
+@interface FTTableView : UITableView
+
+
+-(void) animateCell: (FTTableCell *) cell withAnimationType: (AnimationType) animationType;
+
+
+@property (nonatomic, weak) id <FTTableViewAnimationProtocol> tableAnimationDelegate;
+
+
 
 @end

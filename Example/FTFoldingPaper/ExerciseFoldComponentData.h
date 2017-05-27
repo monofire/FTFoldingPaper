@@ -19,10 +19,17 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ExerciseFoldComponentData : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
+-(instancetype) initWithExerciseLoad: (NSString *) exerciseLoad
+                   exerciseLoadColor: (UIColor *) exerciseLoadColor
+                        exerciseName: (NSString *) exerciseName;
+
+@property (nonatomic) NSString *exerciseLoad;
+@property (nonatomic) UIColor *exerciseLoadColor;
+@property (nonatomic) NSString *exerciseName;
 
 @end

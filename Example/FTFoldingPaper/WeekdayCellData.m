@@ -19,10 +19,8 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "WeekdayCellData.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@implementation WeekdayCellData
 
 @end

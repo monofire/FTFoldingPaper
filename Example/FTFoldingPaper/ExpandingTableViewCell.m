@@ -19,10 +19,28 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "ExpandingTableViewCell.h"
+#import "ExpandingCellAnimationView.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+
+
+@implementation ExpandingTableViewCell
+
+
+-(FTAnimationView *)submitAnimationView{
+    
+    return [[ExpandingCellAnimationView alloc]init];
+}
+
+
+/* do not override if you need cell without separator */
+-(FTTableCellSeparator *)submitCellSeparator{
+    return [[FTTableCellSeparator alloc]initWithHeight:1.0f
+                                offsetFromCellLeftEdge:0.0f
+                               offsetFromCellRightEdge:0.0f
+                                                 color:[UIColor colorWithRed:92.0f/255.0f green:94.0f/255.0f blue:102.0f/255.0f alpha:0.1f]];
+}
+
 
 @end

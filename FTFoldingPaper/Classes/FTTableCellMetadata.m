@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,40 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "FTTableCellMetadata.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@implementation FTTableCellMetadata
 
-@property (strong, nonatomic) UIWindow *window;
+
+
+-(instancetype) initWithReuseID: (NSString *) reuseID
+                   isExpandable: (BOOL) isExpandable
+                     isExpanded: (BOOL) isExpanded{
+    
+    self = [super init];
+    if (self) {
+        self.cellReuseID = reuseID;
+        self.cellCollapsedHeight = -1;
+        self.cellCurrentHeight = -1;
+        self.isExpandable = isExpandable;
+        self.isExpanded = isExpanded;
+        
+    }
+    return self;
+}
+
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.cellReuseID = @"";
+        self.cellCollapsedHeight = -1;
+        self.cellCurrentHeight = -1;
+        self.isExpandable = NO;
+        self.isExpanded = NO;
+    }
+    return self;
+}
 
 @end

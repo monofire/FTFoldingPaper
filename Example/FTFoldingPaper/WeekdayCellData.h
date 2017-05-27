@@ -19,10 +19,13 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WeekdayCellData : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic) NSString *weekDayName;
+@property (nonatomic) NSArray *cellFoldComponentsData;
 
 @end

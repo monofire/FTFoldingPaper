@@ -19,10 +19,23 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "ExerciseFoldComponentData.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@implementation ExerciseFoldComponentData
 
-@property (strong, nonatomic) UIWindow *window;
+
+-(instancetype) initWithExerciseLoad: (NSString *) exerciseLoad
+                   exerciseLoadColor: (UIColor *) exerciseLoadColor
+                        exerciseName: (NSString *) exerciseName{
+    self = [super init];
+    if (self) {
+        self.exerciseLoad = exerciseLoad;
+        self.exerciseLoadColor = exerciseLoadColor;
+        self.exerciseName = exerciseName;
+        
+    }
+    return self;
+}
+
 
 @end

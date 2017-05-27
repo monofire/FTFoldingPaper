@@ -19,10 +19,36 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "ExampleTableModel.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+#define kNumberOfCellsInTable 15
 
-@property (strong, nonatomic) UIWindow *window;
+@implementation ExampleTableModel
+
+-(NSDictionary *)submitCellsIDs{
+    
+    return  @{@"ExpandingTableViewCellID":@"ExpandingTableViewCell"};
+    
+}
+
+
+/* Submit your table architecture. In this example table consists only from cells of one type.
+ You can implement any custom architecture, combining different cell types for different table rows */
+
+-(NSArray *)submitTableCellsMetadata{
+    
+    NSMutableArray *cellsMetadata = [[NSMutableArray alloc]init];
+    
+    for (NSInteger i = 0; i < kNumberOfCellsInTable; i++) {
+        
+        FTTableCellMetadata *tableCellMetadata = nil;
+        
+        tableCellMetadata = [[FTTableCellMetadata alloc]initWithReuseID:@"ExpandingTableViewCellID" isExpandable:YES isExpanded:NO];
+        
+        [cellsMetadata addObject:tableCellMetadata];
+    }
+    
+    return cellsMetadata;
+}
 
 @end

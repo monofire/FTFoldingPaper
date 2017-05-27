@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,29 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "FTTableCellMetadata.h"
+#import "FTTableCell.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface FTTableModel : NSObject
+
+@property (nonatomic) NSMutableArray *tableCellsMetadata;
+
+/* to be overrriden in subclass. Do not call */
+-(NSDictionary*) submitCellsIDs;
+-(NSMutableArray *) submitTableCellsMetadata;
+
+
+/* Table View Contoller interface  */
+-(void) registerCellsForTable: (UITableView *) table;
+
+-(CGFloat) collapsedHeightForExpandedCellIfAny: (FTTableCell *) cell;
+-(void) addCellToExpandedCellsPool: (FTTableCell *) cell withCollapsedHeight: (CGFloat) collapsedHeight;
+-(void) removeCellToExpandedCellsPool: (FTTableCell *) cell;
+
+
+
 
 @end

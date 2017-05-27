@@ -1,4 +1,5 @@
-/*Copyright (c) 2017 monofire <monofirehub@gmail.com>
+/*
+ Copyright (c) 2017 monofire <monofirehub@gmail.com>
  
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -19,10 +20,24 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+/*::: FTTableCellSeparator replaces standard separator entity for FTTableCell */
+
+
+@interface FTTableCellSeparator : UIView
+
+-(instancetype)initWithHeight:(CGFloat)height
+      offsetFromCellLeftEdge:(CGFloat) offsetFromCellLeftEdge
+     offsetFromCellRightEdge:(CGFloat) offsetFromCellRightEdge
+                        color:(UIColor*) color;
+
+@property (nonatomic,readonly) CGFloat height;
+@property (nonatomic,readonly) CGFloat offsetFromCellLeftEdge;
+@property (nonatomic,readonly) CGFloat offsetFromCellRightEdge;
+
+-(void) hide;
+-(void) show;
 
 @end

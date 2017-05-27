@@ -7,17 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065631DDB14D3BA2367D354D957F90D1 /* FTTableModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C44DBBE95CB560BE3D6844CAA8EF11 /* FTTableModel.m */; };
+		1F372762B5E057708920165AFAA534EB /* FTAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34C56115CA5A6474F56AB53CD19FDA6 /* FTAnimationView.m */; };
 		24C109954791F32DCCED79374642B30D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2642939B69F7B9A2800D0BDC655B0387 /* FTTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BE86F4EBDAAC9110DA8893188ACDC02A /* FTTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BD329B60A36110DC6CBB294D8E1C93 /* FTTableCellSeparator.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3C93106996E775E726E2EC1F03BFE5 /* FTTableCellSeparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C3E5745DD7150912709A5E2A1C4EB6 /* FTFoldComponentAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 12294BF69DB4175432E23E7BD9244BD4 /* FTFoldComponentAnimations.m */; };
+		2883F4108F689B15D8728D8B4F818C04 /* FTTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4FC8F09C8120A33F3C477F514B8E5 /* FTTableCell.m */; };
+		3621DC40B3D3A9D55E734A8659521550 /* FTViewController+CellsConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C10DF198A59EBE9A4AE25B4CE0E9130 /* FTViewController+CellsConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4425B0070A3DF3759D2C7F89B2B53FAB /* FTAnimationView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B9A812CA4754BAA10C19CFC9D86A2D /* FTAnimationView+Tools.m */; };
+		4677EC3E6EC3731C5599C0ACA6B03ADD /* FTAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D5B7897D93D26ACB9E9D01594D318E /* FTAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50A56A5EA262944175135253BBDC6178 /* Pods-FTFoldingPaper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0A63014BD4838AB9BD7B992B8070D4 /* Pods-FTFoldingPaper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C782EDE8E7BF5F7D8B84D1030C7C0B9 /* FTFoldingPaper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EBD3EF5511BA76112EBB01696CBE1D /* FTFoldingPaper-dummy.m */; };
-		61D039A3A37139B3015771D39032BDEB /* FTFoldingPaper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D769A45D948C564A70CEDFB90E65CF /* FTFoldingPaper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E089BAFA79A890462EAC91896ADBD7 /* FTAnimationContext+GradientColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0082D7DD994B3414F70CFE74D3B27718 /* FTAnimationContext+GradientColorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5957A141AAF805824E165A2BD8B672A5 /* FTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6965E80E0FE6BD8952AB2815189176B /* FTTableView.m */; };
+		6343FA3B91C72BFA4E5CA44B5D1A9CE9 /* FTFoldComponentGradientAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE7B52A3BCD43FAC9BADDDAC2B32550 /* FTFoldComponentGradientAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63972AB0BA221A84C33B0F16029770B1 /* FTTableCellSeparator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0972C924CB57D333E763220CCF958466 /* FTTableCellSeparator.m */; };
+		675E8856ED1176321C7EF4B01BB2CF17 /* FTFoldingPaper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3DB0DD42853979C88815BFE1B468E9 /* FTFoldingPaper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F6717A81BDB23DF2522AF519C18D3D1 /* AnimationContextStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = 38938C0BA5CDE267528792F62032F8EB /* AnimationContextStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FF2EB92E0FD66339D3FD859C6D1BA99 /* FTFoldingPaper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4EBD3EF5511BA76112EBB01696CBE1D /* FTFoldingPaper-dummy.m */; };
+		87AD2A9D9C4624A9E0D0C026D1B92ACA /* FTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1C83B53E316C97CA8D00F827D34DA4 /* FTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E96D847E99339857BD57AB4795D1A2 /* FTFoldingPaper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D769A45D948C564A70CEDFB90E65CF /* FTFoldingPaper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB95FE681D4FE3FE00DA7FD78BC03F6 /* FTFoldComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F5D5FAFA8B6183578E5229483B494C /* FTFoldComponent.m */; };
 		9B6727E185F1125B670CFC3269A99A89 /* Pods-FTFoldingPaper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3CE411A974D07A43FFB56FF6C713E3 /* Pods-FTFoldingPaper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A9E45FAAF6EE51A2207EE58EA2CD0E9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1CA1AF87B7EBDBB423ECF317820AB3C /* FTViewController+CellsConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A84D13ADA34916639BB167CC88F47A /* FTViewController+CellsConfiguration.m */; };
+		A68BA785B8CF01F19AE3FB487BA66C9B /* FTTableModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EF0A6256D98C606ECBD6A9FDBDB8F9 /* FTTableModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B109C2F692D542D45C78447A26DDB827 /* FTAnimationContext+FoldComponentsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFE6B36980CEB10F0FD2F6BCFB83906 /* FTAnimationContext+FoldComponentsAnimation.m */; };
+		B454352C0A23744819C7474BE75903CB /* FTAnimationView+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = F073444414FD685040FCDF8B5B1DA721 /* FTAnimationView+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7410137B1DE110895C671A1BDFE00F7 /* FTTableCellMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E1F42D74E00D5DBFFF247DAAE8C007 /* FTTableCellMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA839220D2511C9E5FB21B0E61F856A4 /* FTFoldComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD8F10BA120B768029DE862D91D2B8F /* FTFoldComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BECDAF4E605EE4B7E1B1CFB8B9E79206 /* FTAnimationContext+GradientColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 433B8DBB206247766E6D6C2C309AF57C /* FTAnimationContext+GradientColorAnimation.m */; };
+		BF805164EA70DBDEF25AB75C36ECA04E /* FTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4217FCF7A9A34C8A3DB4AEDA42896C9B /* FTViewController.m */; };
+		C2D5E0A8B486F4F79BF2DCF4E143D358 /* FTParentLayerAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 885315FBF807018CEDB5E516C3215BFE /* FTParentLayerAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C709CA4EDF2E37E35EA8D757CE4A19CA /* FTViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 608AE6E3F7DB816A79977730054B921B /* FTViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C746CAE5963DF94872917130F2DD4A5C /* Pods-FTFoldingPaper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AD25B499AA9AF6D5AA288671F4BED5 /* Pods-FTFoldingPaper_Tests-dummy.m */; };
 		CD7ACC01EAC4BF25E564EAB6E0469529 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E29DCEAF1ED9B0FF00A5FA23 /* removeMe.h in Headers */ = {isa = PBXBuildFile; fileRef = E29DCEAD1ED9B0FF00A5FA23 /* removeMe.h */; };
-		E29DCEB01ED9B0FF00A5FA23 /* removeMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E29DCEAE1ED9B0FF00A5FA23 /* removeMe.m */; };
+		CDE0C3F23B93B51733363BC9A3FEFE25 /* FTAnimationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 202FC7CF134556F9AE6E3B338E146C68 /* FTAnimationContext.m */; };
+		D5D8C887D071DEB2B53D16A334E0D264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE7277B88EF752307B169CB55939B5D9 /* FTAnimationContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 028EF11DA82631BAC3367D98A7FDCFF9 /* FTAnimationContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E8BFEC3FE09C030D36A18377929677 /* FTTableCellMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 15EB5620B3F7275C513F5FDF4D862F2E /* FTTableCellMetadata.m */; };
+		F07DE22FCD42E29984742E696FAD0BD3 /* FTAnimationContext+FoldComponentsAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 944056F6F19242CABD6B156825EE5B7B /* FTAnimationContext+FoldComponentsAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94FD3FA4C16491FB23DB238759E5499 /* FTParentLayerAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 679AA8A93347ED0CF53554CD2ACFACB1 /* FTParentLayerAnimations.m */; };
+		FBCFF5470417C93422C98FD85EABFC97 /* FTFoldComponentGradientAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = B90079BA25F2AA3E8B3ABB2D569E0E86 /* FTFoldComponentGradientAnimations.m */; };
 		FD33E95346A328DB3DFB5EBFBE6EEE68 /* Pods-FTFoldingPaper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E71C5AF5E41E1B7ADC40657F6994ABD /* Pods-FTFoldingPaper_Example-dummy.m */; };
+		FD8EE1CA1531D59F7C13AD021F135595 /* FTFoldComponentAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A7D64CAA74BB4D80BCE590EBCE800A /* FTFoldComponentAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,45 +57,77 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 82CE8C357E3097EF1868B545E3673142;
+			remoteGlobalIDString = 603853AA9ACDE8F5A09FFD10C67C3C45;
 			remoteInfo = FTFoldingPaper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0082D7DD994B3414F70CFE74D3B27718 /* FTAnimationContext+GradientColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTAnimationContext+GradientColorAnimation.h"; sourceTree = "<group>"; };
+		028EF11DA82631BAC3367D98A7FDCFF9 /* FTAnimationContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTAnimationContext.h; sourceTree = "<group>"; };
+		0972C924CB57D333E763220CCF958466 /* FTTableCellSeparator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTTableCellSeparator.m; sourceTree = "<group>"; };
+		0B1C83B53E316C97CA8D00F827D34DA4 /* FTTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTTableView.h; sourceTree = "<group>"; };
+		0EFE6B36980CEB10F0FD2F6BCFB83906 /* FTAnimationContext+FoldComponentsAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTAnimationContext+FoldComponentsAnimation.m"; sourceTree = "<group>"; };
+		12294BF69DB4175432E23E7BD9244BD4 /* FTFoldComponentAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTFoldComponentAnimations.m; sourceTree = "<group>"; };
+		15EB5620B3F7275C513F5FDF4D862F2E /* FTTableCellMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTTableCellMetadata.m; sourceTree = "<group>"; };
 		1B7F5523D1975E3E9B591A3D12129597 /* Pods-FTFoldingPaper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldingPaper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		202FC7CF134556F9AE6E3B338E146C68 /* FTAnimationContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTAnimationContext.m; sourceTree = "<group>"; };
+		25D5B7897D93D26ACB9E9D01594D318E /* FTAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTAnimationView.h; sourceTree = "<group>"; };
 		2E71C5AF5E41E1B7ADC40657F6994ABD /* Pods-FTFoldingPaper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTFoldingPaper_Example-dummy.m"; sourceTree = "<group>"; };
+		38938C0BA5CDE267528792F62032F8EB /* AnimationContextStructs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AnimationContextStructs.h; sourceTree = "<group>"; };
 		41AD25B499AA9AF6D5AA288671F4BED5 /* Pods-FTFoldingPaper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FTFoldingPaper_Tests-dummy.m"; sourceTree = "<group>"; };
-		444A3B8739D40405D2027D43CD05613B /* Pods_FTFoldingPaper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTFoldingPaper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4217FCF7A9A34C8A3DB4AEDA42896C9B /* FTViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTViewController.m; sourceTree = "<group>"; };
+		433B8DBB206247766E6D6C2C309AF57C /* FTAnimationContext+GradientColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTAnimationContext+GradientColorAnimation.m"; sourceTree = "<group>"; };
+		444A3B8739D40405D2027D43CD05613B /* Pods_FTFoldingPaper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTFoldingPaper_Example.framework; path = "Pods-FTFoldingPaper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6EA89F42D4010AA164913140DA2854 /* Pods-FTFoldingPaper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldingPaper_Tests-resources.sh"; sourceTree = "<group>"; };
-		4F8D09F68DAAB8C8B899F5BAB9FA04B6 /* Pods-FTFoldingPaper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FTFoldingPaper_Example.modulemap"; sourceTree = "<group>"; };
+		4F8D09F68DAAB8C8B899F5BAB9FA04B6 /* Pods-FTFoldingPaper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FTFoldingPaper_Example.modulemap"; sourceTree = "<group>"; };
 		539403C78F3D1D7550A6CEABB6633143 /* FTFoldingPaper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTFoldingPaper-prefix.pch"; sourceTree = "<group>"; };
+		608AE6E3F7DB816A79977730054B921B /* FTViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTViewController.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6720837B426E6C4BBA6CCFE7B885CACB /* Pods-FTFoldingPaper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTFoldingPaper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		67582E8996A2615BC479ABBACF19215D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6893FE1D0195A41CC199B499E8E2EB54 /* FTFoldingPaper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FTFoldingPaper.modulemap; sourceTree = "<group>"; };
+		679AA8A93347ED0CF53554CD2ACFACB1 /* FTParentLayerAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTParentLayerAnimations.m; sourceTree = "<group>"; };
+		6893FE1D0195A41CC199B499E8E2EB54 /* FTFoldingPaper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FTFoldingPaper.modulemap; sourceTree = "<group>"; };
+		6C10DF198A59EBE9A4AE25B4CE0E9130 /* FTViewController+CellsConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTViewController+CellsConfiguration.h"; sourceTree = "<group>"; };
 		6D6C168F1F8AF9960598533CE6AA6CF8 /* Pods-FTFoldingPaper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldingPaper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		78FEA7CBBB9686FAB724BDF21631C774 /* Pods-FTFoldingPaper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTFoldingPaper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CB4FC8F09C8120A33F3C477F514B8E5 /* FTTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTTableCell.m; sourceTree = "<group>"; };
 		7D9EE7DA4F090833F9FDA0F26A7E44B5 /* Pods-FTFoldingPaper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FTFoldingPaper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		885315FBF807018CEDB5E516C3215BFE /* FTParentLayerAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTParentLayerAnimations.h; sourceTree = "<group>"; };
 		8CFA6E57C45D6BB3A03D33AA2954CD7C /* Pods-FTFoldingPaper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldingPaper_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		92472EA8C0572820A247655E4C390497 /* Pods_FTFoldingPaper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTFoldingPaper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92472EA8C0572820A247655E4C390497 /* Pods_FTFoldingPaper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FTFoldingPaper_Tests.framework; path = "Pods-FTFoldingPaper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D769A45D948C564A70CEDFB90E65CF /* FTFoldingPaper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTFoldingPaper-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944056F6F19242CABD6B156825EE5B7B /* FTAnimationContext+FoldComponentsAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTAnimationContext+FoldComponentsAnimation.h"; sourceTree = "<group>"; };
 		9B3CE411A974D07A43FFB56FF6C713E3 /* Pods-FTFoldingPaper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTFoldingPaper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9B3DB0DD42853979C88815BFE1B468E9 /* FTFoldingPaper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTFoldingPaper.h; sourceTree = "<group>"; };
 		9D5E07929A350EDD39E870959BE6D5D6 /* FTFoldingPaper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTFoldingPaper.xcconfig; sourceTree = "<group>"; };
+		A3E1F42D74E00D5DBFFF247DAAE8C007 /* FTTableCellMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTTableCellMetadata.h; sourceTree = "<group>"; };
+		B90079BA25F2AA3E8B3ABB2D569E0E86 /* FTFoldComponentGradientAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTFoldComponentGradientAnimations.m; sourceTree = "<group>"; };
+		BE86F4EBDAAC9110DA8893188ACDC02A /* FTTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTTableCell.h; sourceTree = "<group>"; };
 		BEE0E440BBE0C41484B6BD4A27840E47 /* Pods-FTFoldingPaper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldingPaper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C4A7D64CAA74BB4D80BCE590EBCE800A /* FTFoldComponentAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTFoldComponentAnimations.h; sourceTree = "<group>"; };
+		C4EF0A6256D98C606ECBD6A9FDBDB8F9 /* FTTableModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTTableModel.h; sourceTree = "<group>"; };
 		C538F4D4FD56A39DD0CA31073EDB9CBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6965E80E0FE6BD8952AB2815189176B /* FTTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTTableView.m; sourceTree = "<group>"; };
 		C9328EA28AA49B2D449DECA539F51543 /* Pods-FTFoldingPaper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FTFoldingPaper_Example-resources.sh"; sourceTree = "<group>"; };
+		C9C44DBBE95CB560BE3D6844CAA8EF11 /* FTTableModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTTableModel.m; sourceTree = "<group>"; };
 		CA0A63014BD4838AB9BD7B992B8070D4 /* Pods-FTFoldingPaper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FTFoldingPaper_Example-umbrella.h"; sourceTree = "<group>"; };
-		CA152B4F8288BE8A38D137EABBE614D8 /* Pods-FTFoldingPaper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FTFoldingPaper_Tests.modulemap"; sourceTree = "<group>"; };
+		CA152B4F8288BE8A38D137EABBE614D8 /* Pods-FTFoldingPaper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FTFoldingPaper_Tests.modulemap"; sourceTree = "<group>"; };
+		D34C56115CA5A6474F56AB53CD19FDA6 /* FTAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTAnimationView.m; sourceTree = "<group>"; };
 		D4EBD3EF5511BA76112EBB01696CBE1D /* FTFoldingPaper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTFoldingPaper-dummy.m"; sourceTree = "<group>"; };
-		E29DCEAD1ED9B0FF00A5FA23 /* removeMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = removeMe.h; path = Classes/removeMe.h; sourceTree = "<group>"; };
-		E29DCEAE1ED9B0FF00A5FA23 /* removeMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = removeMe.m; path = Classes/removeMe.m; sourceTree = "<group>"; };
+		D4F5D5FAFA8B6183578E5229483B494C /* FTFoldComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FTFoldComponent.m; sourceTree = "<group>"; };
+		DBD8F10BA120B768029DE862D91D2B8F /* FTFoldComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTFoldComponent.h; sourceTree = "<group>"; };
+		DFE7B52A3BCD43FAC9BADDDAC2B32550 /* FTFoldComponentGradientAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTFoldComponentGradientAnimations.h; sourceTree = "<group>"; };
 		E604B99FCDC16B900741B0212ED78626 /* Pods-FTFoldingPaper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldingPaper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E656BEE2DE074A918A0812157CA9B14A /* Pods-FTFoldingPaper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FTFoldingPaper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EFD903BA21A463DF4E1D14C6FD598512 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8BB8CB58B2E8920CFDB8CF6163D15E7 /* FTFoldingPaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FTFoldingPaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F073444414FD685040FCDF8B5B1DA721 /* FTAnimationView+Tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTAnimationView+Tools.h"; sourceTree = "<group>"; };
+		F0A84D13ADA34916639BB167CC88F47A /* FTViewController+CellsConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTViewController+CellsConfiguration.m"; sourceTree = "<group>"; };
+		F4B9A812CA4754BAA10C19CFC9D86A2D /* FTAnimationView+Tools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTAnimationView+Tools.m"; sourceTree = "<group>"; };
+		F8BB8CB58B2E8920CFDB8CF6163D15E7 /* FTFoldingPaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTFoldingPaper.framework; path = FTFoldingPaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE1D47FDF2CAB74FEA0184E9601BC66 /* Pods-FTFoldingPaper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FTFoldingPaper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC3C93106996E775E726E2EC1F03BFE5 /* FTTableCellSeparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTTableCellSeparator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +147,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		986CA0DA52C14CF191CC40D8E7E4D5BC /* Frameworks */ = {
+		FBAB4ADB79B79F44EB9E33656DCA5761 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9E45FAAF6EE51A2207EE58EA2CD0E9B /* Foundation.framework in Frameworks */,
+				D5D8C887D071DEB2B53D16A334E0D264 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +161,7 @@
 		2E0D5FC8716C589AC3899482C5DA24E8 /* FTFoldingPaper */ = {
 			isa = PBXGroup;
 			children = (
-				A3C8F5D76093452F230EE30DFB0250D6 /* FTFoldingPaper */,
+				C0F0A40707089A6AE4ABA40492BD185E /* FTFoldingPaper */,
 				BBA43F0958FD63CCCBCE85C506217C7A /* Support Files */,
 			);
 			name = FTFoldingPaper;
@@ -110,6 +174,48 @@
 				2E0D5FC8716C589AC3899482C5DA24E8 /* FTFoldingPaper */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		44EC133FEC06449B271F8B25E696D1F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38938C0BA5CDE267528792F62032F8EB /* AnimationContextStructs.h */,
+				028EF11DA82631BAC3367D98A7FDCFF9 /* FTAnimationContext.h */,
+				202FC7CF134556F9AE6E3B338E146C68 /* FTAnimationContext.m */,
+				944056F6F19242CABD6B156825EE5B7B /* FTAnimationContext+FoldComponentsAnimation.h */,
+				0EFE6B36980CEB10F0FD2F6BCFB83906 /* FTAnimationContext+FoldComponentsAnimation.m */,
+				0082D7DD994B3414F70CFE74D3B27718 /* FTAnimationContext+GradientColorAnimation.h */,
+				433B8DBB206247766E6D6C2C309AF57C /* FTAnimationContext+GradientColorAnimation.m */,
+				25D5B7897D93D26ACB9E9D01594D318E /* FTAnimationView.h */,
+				D34C56115CA5A6474F56AB53CD19FDA6 /* FTAnimationView.m */,
+				F073444414FD685040FCDF8B5B1DA721 /* FTAnimationView+Tools.h */,
+				F4B9A812CA4754BAA10C19CFC9D86A2D /* FTAnimationView+Tools.m */,
+				DBD8F10BA120B768029DE862D91D2B8F /* FTFoldComponent.h */,
+				D4F5D5FAFA8B6183578E5229483B494C /* FTFoldComponent.m */,
+				C4A7D64CAA74BB4D80BCE590EBCE800A /* FTFoldComponentAnimations.h */,
+				12294BF69DB4175432E23E7BD9244BD4 /* FTFoldComponentAnimations.m */,
+				DFE7B52A3BCD43FAC9BADDDAC2B32550 /* FTFoldComponentGradientAnimations.h */,
+				B90079BA25F2AA3E8B3ABB2D569E0E86 /* FTFoldComponentGradientAnimations.m */,
+				9B3DB0DD42853979C88815BFE1B468E9 /* FTFoldingPaper.h */,
+				885315FBF807018CEDB5E516C3215BFE /* FTParentLayerAnimations.h */,
+				679AA8A93347ED0CF53554CD2ACFACB1 /* FTParentLayerAnimations.m */,
+				BE86F4EBDAAC9110DA8893188ACDC02A /* FTTableCell.h */,
+				7CB4FC8F09C8120A33F3C477F514B8E5 /* FTTableCell.m */,
+				A3E1F42D74E00D5DBFFF247DAAE8C007 /* FTTableCellMetadata.h */,
+				15EB5620B3F7275C513F5FDF4D862F2E /* FTTableCellMetadata.m */,
+				FC3C93106996E775E726E2EC1F03BFE5 /* FTTableCellSeparator.h */,
+				0972C924CB57D333E763220CCF958466 /* FTTableCellSeparator.m */,
+				C4EF0A6256D98C606ECBD6A9FDBDB8F9 /* FTTableModel.h */,
+				C9C44DBBE95CB560BE3D6844CAA8EF11 /* FTTableModel.m */,
+				0B1C83B53E316C97CA8D00F827D34DA4 /* FTTableView.h */,
+				C6965E80E0FE6BD8952AB2815189176B /* FTTableView.m */,
+				608AE6E3F7DB816A79977730054B921B /* FTViewController.h */,
+				4217FCF7A9A34C8A3DB4AEDA42896C9B /* FTViewController.m */,
+				6C10DF198A59EBE9A4AE25B4CE0E9130 /* FTViewController+CellsConfiguration.h */,
+				F0A84D13ADA34916639BB167CC88F47A /* FTViewController+CellsConfiguration.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -140,15 +246,6 @@
 				EC5D9E0EAECFE1CBE1C56E871062FA97 /* Pods-FTFoldingPaper_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A3C8F5D76093452F230EE30DFB0250D6 /* FTFoldingPaper */ = {
-			isa = PBXGroup;
-			children = (
-				E29DCEAD1ED9B0FF00A5FA23 /* removeMe.h */,
-				E29DCEAE1ED9B0FF00A5FA23 /* removeMe.m */,
-			);
-			path = FTFoldingPaper;
 			sourceTree = "<group>";
 		};
 		AC7EC22E6FA03544FB58713061E7FFF1 /* Pods-FTFoldingPaper_Example */ = {
@@ -191,6 +288,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C0F0A40707089A6AE4ABA40492BD185E /* FTFoldingPaper */ = {
+			isa = PBXGroup;
+			children = (
+				44EC133FEC06449B271F8B25E696D1F9 /* Classes */,
+			);
+			name = FTFoldingPaper;
+			path = FTFoldingPaper;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,20 +334,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EEABF766166E2C2C5A445689C2D04A5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E29DCEAF1ED9B0FF00A5FA23 /* removeMe.h in Headers */,
-				61D039A3A37139B3015771D39032BDEB /* FTFoldingPaper-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		78FD8A03723AE08B0B6398DD6D3FDA23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50A56A5EA262944175135253BBDC6178 /* Pods-FTFoldingPaper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB56BC9EE21C3EDAECCC9702AD237172 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6717A81BDB23DF2522AF519C18D3D1 /* AnimationContextStructs.h in Headers */,
+				F07DE22FCD42E29984742E696FAD0BD3 /* FTAnimationContext+FoldComponentsAnimation.h in Headers */,
+				56E089BAFA79A890462EAC91896ADBD7 /* FTAnimationContext+GradientColorAnimation.h in Headers */,
+				DE7277B88EF752307B169CB55939B5D9 /* FTAnimationContext.h in Headers */,
+				B454352C0A23744819C7474BE75903CB /* FTAnimationView+Tools.h in Headers */,
+				4677EC3E6EC3731C5599C0ACA6B03ADD /* FTAnimationView.h in Headers */,
+				BA839220D2511C9E5FB21B0E61F856A4 /* FTFoldComponent.h in Headers */,
+				FD8EE1CA1531D59F7C13AD021F135595 /* FTFoldComponentAnimations.h in Headers */,
+				6343FA3B91C72BFA4E5CA44B5D1A9CE9 /* FTFoldComponentGradientAnimations.h in Headers */,
+				89E96D847E99339857BD57AB4795D1A2 /* FTFoldingPaper-umbrella.h in Headers */,
+				675E8856ED1176321C7EF4B01BB2CF17 /* FTFoldingPaper.h in Headers */,
+				C2D5E0A8B486F4F79BF2DCF4E143D358 /* FTParentLayerAnimations.h in Headers */,
+				2642939B69F7B9A2800D0BDC655B0387 /* FTTableCell.h in Headers */,
+				B7410137B1DE110895C671A1BDFE00F7 /* FTTableCellMetadata.h in Headers */,
+				26BD329B60A36110DC6CBB294D8E1C93 /* FTTableCellSeparator.h in Headers */,
+				A68BA785B8CF01F19AE3FB487BA66C9B /* FTTableModel.h in Headers */,
+				87AD2A9D9C4624A9E0D0C026D1B92ACA /* FTTableView.h in Headers */,
+				3621DC40B3D3A9D55E734A8659521550 /* FTViewController+CellsConfiguration.h in Headers */,
+				C709CA4EDF2E37E35EA8D757CE4A19CA /* FTViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +406,13 @@
 			productReference = 444A3B8739D40405D2027D43CD05613B /* Pods_FTFoldingPaper_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		82CE8C357E3097EF1868B545E3673142 /* FTFoldingPaper */ = {
+		603853AA9ACDE8F5A09FFD10C67C3C45 /* FTFoldingPaper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AB860085B6CD6B6875764AAB79A1AFA /* Build configuration list for PBXNativeTarget "FTFoldingPaper" */;
+			buildConfigurationList = E9F1A1546613F8444116CA9D605580E8 /* Build configuration list for PBXNativeTarget "FTFoldingPaper" */;
 			buildPhases = (
-				F29C06F4094D9F8C594E84620C8D6767 /* Sources */,
-				986CA0DA52C14CF191CC40D8E7E4D5BC /* Frameworks */,
-				6EEABF766166E2C2C5A445689C2D04A5 /* Headers */,
+				F9B7AF73BE823CE7F414A207F2ABF2B3 /* Sources */,
+				FBAB4ADB79B79F44EB9E33656DCA5761 /* Frameworks */,
+				DB56BC9EE21C3EDAECCC9702AD237172 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -321,7 +444,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82CE8C357E3097EF1868B545E3673142 /* FTFoldingPaper */,
+				603853AA9ACDE8F5A09FFD10C67C3C45 /* FTFoldingPaper */,
 				3B6E78358C4D722582C8A49817DF4425 /* Pods-FTFoldingPaper_Example */,
 				121A08ECB45797804645B10C6A613E70 /* Pods-FTFoldingPaper_Tests */,
 			);
@@ -345,12 +468,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F29C06F4094D9F8C594E84620C8D6767 /* Sources */ = {
+		F9B7AF73BE823CE7F414A207F2ABF2B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C782EDE8E7BF5F7D8B84D1030C7C0B9 /* FTFoldingPaper-dummy.m in Sources */,
-				E29DCEB01ED9B0FF00A5FA23 /* removeMe.m in Sources */,
+				B109C2F692D542D45C78447A26DDB827 /* FTAnimationContext+FoldComponentsAnimation.m in Sources */,
+				BECDAF4E605EE4B7E1B1CFB8B9E79206 /* FTAnimationContext+GradientColorAnimation.m in Sources */,
+				CDE0C3F23B93B51733363BC9A3FEFE25 /* FTAnimationContext.m in Sources */,
+				4425B0070A3DF3759D2C7F89B2B53FAB /* FTAnimationView+Tools.m in Sources */,
+				1F372762B5E057708920165AFAA534EB /* FTAnimationView.m in Sources */,
+				8EB95FE681D4FE3FE00DA7FD78BC03F6 /* FTFoldComponent.m in Sources */,
+				26C3E5745DD7150912709A5E2A1C4EB6 /* FTFoldComponentAnimations.m in Sources */,
+				FBCFF5470417C93422C98FD85EABFC97 /* FTFoldComponentGradientAnimations.m in Sources */,
+				7FF2EB92E0FD66339D3FD859C6D1BA99 /* FTFoldingPaper-dummy.m in Sources */,
+				F94FD3FA4C16491FB23DB238759E5499 /* FTParentLayerAnimations.m in Sources */,
+				2883F4108F689B15D8728D8B4F818C04 /* FTTableCell.m in Sources */,
+				E8E8BFEC3FE09C030D36A18377929677 /* FTTableCellMetadata.m in Sources */,
+				63972AB0BA221A84C33B0F16029770B1 /* FTTableCellSeparator.m in Sources */,
+				065631DDB14D3BA2367D354D957F90D1 /* FTTableModel.m in Sources */,
+				5957A141AAF805824E165A2BD8B672A5 /* FTTableView.m in Sources */,
+				A1CA1AF87B7EBDBB423ECF317820AB3C /* FTViewController+CellsConfiguration.m in Sources */,
+				BF805164EA70DBDEF25AB75C36ECA04E /* FTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +498,7 @@
 		9601A92F4F40EF02A9E2D4AD7C88E03A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FTFoldingPaper;
-			target = 82CE8C357E3097EF1868B545E3673142 /* FTFoldingPaper */;
+			target = 603853AA9ACDE8F5A09FFD10C67C3C45 /* FTFoldingPaper */;
 			targetProxy = 8AB90384C878A7D1A6FDC5BC151B2EA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,70 +588,6 @@
 			};
 			name = Debug;
 		};
-		35734B66CEDEC44B90988E2787A7850C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5E07929A350EDD39E870959BE6D5D6 /* FTFoldingPaper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FTFoldingPaper/FTFoldingPaper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FTFoldingPaper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FTFoldingPaper/FTFoldingPaper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FTFoldingPaper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		49CF877ED366EA43B5427E3DFF546920 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D5E07929A350EDD39E870959BE6D5D6 /* FTFoldingPaper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FTFoldingPaper/FTFoldingPaper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FTFoldingPaper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FTFoldingPaper/FTFoldingPaper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FTFoldingPaper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -557,6 +631,38 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		7448E0D48FCAC3A50A8CE872DBC889DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5E07929A350EDD39E870959BE6D5D6 /* FTFoldingPaper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTFoldingPaper/FTFoldingPaper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTFoldingPaper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTFoldingPaper/FTFoldingPaper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FTFoldingPaper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7740A150D98E6A060707A91DBA2F8AD4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -630,6 +736,38 @@
 			};
 			name = Release;
 		};
+		C9BBBC1E802F90B61B387C021B42CD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5E07929A350EDD39E870959BE6D5D6 /* FTFoldingPaper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTFoldingPaper/FTFoldingPaper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTFoldingPaper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FTFoldingPaper/FTFoldingPaper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FTFoldingPaper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DBDB21D380A98113276255A4044354D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B7F5523D1975E3E9B591A3D12129597 /* Pods-FTFoldingPaper_Example.debug.xcconfig */;
@@ -678,15 +816,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AB860085B6CD6B6875764AAB79A1AFA /* Build configuration list for PBXNativeTarget "FTFoldingPaper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49CF877ED366EA43B5427E3DFF546920 /* Debug */,
-				35734B66CEDEC44B90988E2787A7850C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6D7718CF3D9545D1B5EBC40CAC7F4FEE /* Build configuration list for PBXNativeTarget "Pods-FTFoldingPaper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -701,6 +830,15 @@
 			buildConfigurations = (
 				24D8B9CFA1291DE3C82F813C6E4BA35E /* Debug */,
 				BCBC565F6528783E49117BA45E3EE38C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F1A1546613F8444116CA9D605580E8 /* Build configuration list for PBXNativeTarget "FTFoldingPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7448E0D48FCAC3A50A8CE872DBC889DA /* Debug */,
+				C9BBBC1E802F90B61B387C021B42CD4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

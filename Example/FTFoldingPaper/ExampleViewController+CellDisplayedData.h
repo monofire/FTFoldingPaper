@@ -19,10 +19,21 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import "ExampleViewController.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+
+/*::: ExampleViewController (CellDisplayedData) responsible for cells data->view operations */
+
+@interface ExampleViewController (CellDisplayedData)
+
+-(void) updateDisplayedDataOfNonExpandingCell: (UITableViewCell *) nonExpandingCell
+                            exerciseDataModel: (ExcerciseDataModel *) exerciseDataModel
+                                    indexPath: (NSIndexPath*) indexPath;
+
+
+-(void) updateDispayedDataOfExpandingCell: (FTTableCell *) expandingCell
+                        exerciseDataModel: (ExcerciseDataModel *) exerciseDataModel
+                                indexPath: (NSIndexPath*) indexPath;
 
 @end

@@ -19,10 +19,13 @@
  THE SOFTWARE.
  */
 
-@import UIKit;
+#import <Foundation/Foundation.h>
+#import "WeekdayCellData.h"
+#import "ExerciseFoldComponentData.h"
 
-@interface FTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ExcerciseDataModel : NSObject
 
-@property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic) NSMutableArray *excerciseData;
 
 @end
