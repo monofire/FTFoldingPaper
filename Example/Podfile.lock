@@ -1,0 +1,16 @@
+PODS:
+  - FTFoldingPaper (0.1.0)
+
+DEPENDENCIES:
+  - FTFoldingPaper (from `../`)
+
+EXTERNAL SOURCES:
+  FTFoldingPaper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FTFoldingPaper: a49e5d1fa500aee36a701826c0273f2ffca6201b
+
+PODFILE CHECKSUM: d11b17930e5a0681d7dfc751c5f8e887c8f67a72
+
+COCOAPODS: 1.2.1

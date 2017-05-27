@@ -1,0 +1,6 @@
+framework module FTFoldingPaper {
+  umbrella header "FTFoldingPaper-umbrella.h"
+
+  export *
+  module * { export * }
+}
