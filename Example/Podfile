@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FTFoldingPaper_Example' do
+  pod 'FTFoldingPaper', :path => '../'
+
+  target 'FTFoldingPaper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
