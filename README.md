@@ -9,6 +9,7 @@ FTFoldingPaper is a UI framework built on top of the [Core Animation](https://de
 ![ftfoldingpaperexample](https://cloud.githubusercontent.com/assets/25864772/26519063/5f09228a-42c4-11e7-9a05-b6385976a16f.gif)
 
 ## How To Get Started
+- [Download FTFoldingPaper](https://github.com/monofire/FTFoldingPaper/archive/master.zip) and try it out.
 - Install FTFoldingPaper to your project using CocoaPods.
 - Follow instructions below.
 
@@ -69,15 +70,12 @@ FTTableCellSeparator
 
 ## Usage:
 
-
 1. Create xibs of the top and bottom layers for all your fold components.  
 Note that each fold component requires top and bottom layers.
 
-1.1 Press '⌘ + N'. Select "User Interface" -> "View"  
+   1.1 Press '⌘ + N'. Select "User Interface" -> "View"  
 1.2 Open and edit each xib according to your needs: (add UI components, setup Autolayout).  
-1.3 Create data model object to manage UI components of your layer, if any required.  
-
-
+1.3 Create data model object to manage UI components of your layer, if any required.
 
 2. Subclass and configure `FTAnimationView` with `FTFoldComponents` and `FTAnimationContext`.
 
@@ -119,12 +117,12 @@ Continue with steps 3 - 7 if you need to integrate it into the `UITableView` com
 3. Subclass `FTTableCell` and create cell prototype. 
 You can create as many different cells as you need in order to fulfill your UI tasks.
 
-3.1 Press '⌘ + N'. Create new subclass of `UITableViewCell`. Tick "Also create XIB file".  
+   3.1 Press '⌘ + N'. Create new subclass of `UITableViewCell`. Tick "Also create XIB file".  
 3.2 Open .h file of your class. Change parent class to `FTTableCell` like this:  
-```objective-c
-@interface <your class name> : FTTableCell
-```
-3.3 Open and edit cell xib according to your needs: (add UI components, setup Autolayout).  
+   ```objective-c
+   @interface <your class name> : FTTableCell
+   ```
+   3.3 Open and edit cell xib according to your needs: (add UI components, setup Autolayout).  
 3.4 Create data model object to manage UI components of your cell if any required.  
 3.5 Set cell identifier.  
 
@@ -178,49 +176,46 @@ return cellsMetadata;
 }
 ```
 
-6. Add TableView UI component to your controller in the storyboard.  
+6. Add TableView UI component to your controller in the storyboard.
 
-6.1 Configure your TableView UI component.  
+   6.1 Configure your TableView UI component.  
 6.2 Set `FTTableView` as the custom class for your table (in storyboard settings).  
 
 
 7. Subclass and configure `FTTableViewController`.  
 `FTTableViewController` bridges `FTTableView` with `FTTableModel` and provides other logic to manage cells operations. 
 
-7.1 In your subclassed `FTTableViewController`, link your `FTTableView` and subscribe for `UITableViewDelegate` and `UITableViewDataSource` protocols. Example:
+   7.1 In your subclassed `FTTableViewController`, link your `FTTableView` and subscribe for `UITableViewDelegate` and `UITableViewDataSource` protocols. Example:
 
-```objective-c
-self.tableView.dataSource = self;
-self.tableView.delegate = self;
-```
+   ```objective-c
+   self.tableView.dataSource = self;
+   self.tableView.delegate = self;
+   ```
 
-7.2 Override the following methods in your subclassed `FTTableViewController`:
+   7.2 Override the following methods in your subclassed `FTTableViewController`:
 
-```objective-c
--(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-return [super tableView:tableView numberOfRowsInSection:section];
-}
+   ```objective-c
+   -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+   return [super tableView:tableView numberOfRowsInSection:section];
+   }
 
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-return [super tableView:tableView cellForRowAtIndexPath:indexPath];
-}
+   -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+   return [super tableView:tableView cellForRowAtIndexPath:indexPath];
+   }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-return [super tableView:tableView heightForRowAtIndexPath:indexPath];
-}
+   -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+   return [super tableView:tableView heightForRowAtIndexPath:indexPath];
+   }
 
--(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
-[self updateDisplayedDataForCell:cell atIndexPath:indexPath];
-}
-```
+   -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+   [self updateDisplayedDataForCell:cell atIndexPath:indexPath];
+   }
+   ```
 
-7.3 Implement your data model to manage the content of your cells.  
+   7.3 Implement your data model to manage the content of your cells.  
 7.4 Implement mechanism to update the content of your cells using your data model.  
 You can override `-(void)tableView: willDisplayCell: forRowAtIndexPath:` for that purpose.
 
-
-## Author
-monofire, monofirehub@gmail.com
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
